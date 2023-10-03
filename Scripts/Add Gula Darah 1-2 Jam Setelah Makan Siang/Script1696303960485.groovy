@@ -47,5 +47,9 @@ Mobile.verifyElementText(findTestObject('GulaDarahManualPage/SarapanPopup'), 'Na
 
 Mobile.verifyElementText(findTestObject('GulaDarahManualPage/WaktuPopup'), '1-2 Jam Setelah Makan Siang')
 
+Mobile.tap(findTestObject('GulaDarahManualPage/ConfirmationPopup'), 0)
+
+Mobile.verifyElementText(findTestObject('GulaDarahManualPage/SucessConfrimationPopup'), 'BERHASIL')
+
 Mobile.closeApplication()
 

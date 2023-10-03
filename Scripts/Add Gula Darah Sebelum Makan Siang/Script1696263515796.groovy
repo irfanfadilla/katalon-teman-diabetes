@@ -51,5 +51,9 @@ Mobile.verifyElementText(findTestObject('GulaDarahManualPage/SarapanPopup'), 'Na
 
 Mobile.verifyElementText(findTestObject('GulaDarahManualPage/SnackPopup'), 'Wafer')
 
+Mobile.tap(findTestObject('GulaDarahManualPage/ConfirmationPopup'), 0)
+
+Mobile.verifyElementText(findTestObject('GulaDarahManualPage/SucessConfrimationPopup'), 'BERHASIL')
+
 Mobile.closeApplication()
 
